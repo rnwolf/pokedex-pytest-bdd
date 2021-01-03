@@ -4,6 +4,22 @@ Code for an example talked about here: https://cheesecakelabs.com/blog/behavior-
 
 Also need to ensure Firefox and Geckodriver, https://github.com/mozilla/geckodriver, are installed.
 
+# File Tree
+
+```
+rnwolf@RUDI-LAPTOP:/mnt/c/Users/rnwol/workspace/pokedex-pytest-bdd$ tree -L 3
+.
+├── README.md
+├── requirements.txt
+└── tests
+    ├── features
+    |   └── pokedex.feature
+    |
+    └── step_definitions
+        ├── __init__.py
+        ├── conftest.py
+        └── test_pokedex_steps.py
+```
 
 # Run from terminal
 
